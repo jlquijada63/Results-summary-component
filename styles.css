@@ -21,7 +21,7 @@
 
   --White: hsl(0, 0%, 100%);
 
-  --Pale-blue: hsl(221, 100%, 96%);
+  --Pale-blue: hsl(221, 30%, 96%);
 
   --Light-lavender: hsl(241, 100%, 89%);
 
@@ -42,6 +42,7 @@ body {
   line-height: 2;
   margin: 0;
 }
+
 h1 {
   font-size: 5rem;
 }
@@ -56,6 +57,32 @@ h3 {
 
 p {
   font-size: 1.8rem;
+}
+
+.container {
+  width: 100%;
+}
+
+@media (min-width: 400px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    background-color: #fafafa;
+    height: 75vh;
+    width: 60%;
+    margin: 10rem auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    border-radius: 40px;
+    padding-right: 3rem;
+  }
+  .result {
+    border-radius: 40px;
+  }
 }
 
 .result {
