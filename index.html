@@ -23,6 +23,22 @@
       href="./normalize.css"
     />
 
+    <!-- google fonts -->
+
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- my own style -->
     <link
       rel="stylesheet"
@@ -30,6 +46,71 @@
     />
   </head>
   <body>
-    <h1>Results summary component</h1>
+    <header class="result">
+      <h3 class="result--title">Your Result</h3>
+      <div class="result--number">
+        <h1 class="result--number__mean">76</h1>
+        <p class="result--number__info">of 100</p>
+      </div>
+      <h2 class="result--greeting">Great</h2>
+      <p class="result--info">
+        Your score higher than the 65% of the people who have taken this test
+      </p>
+    </header>
+    <main>
+      <h3 class="main--title">Summary</h3>
+      <div class="sections">
+        <section class="section memory">
+          <div class="section--title">
+            <img
+              class="section--title__icon"
+              alt="icon"
+              src="./assets/images/icon-memory.svg"
+            />
+            <p class="section--title__text">Memory</p>
+          </div>
+
+          <p class="section--points">65</p>
+        </section>
+        <section class="section reaction">
+          <div class="section--title">
+            <img
+              class="section--title__icon"
+              alt="icon"
+              src="./assets/images/icon-reaction.svg"
+            />
+            <p class="section--title__text">Reaction</p>
+          </div>
+
+          <p class="section--points">65</p>
+        </section>
+        <section class="section verbal">
+          <div class="section--title">
+            <img
+              class="section--title__icon"
+              alt="icon"
+              src="./assets/images/icon-verbal.svg"
+            />
+            <p class="section--title__text">Verbal</p>
+          </div>
+
+          <p class="section--points">65</p>
+        </section>
+        <section class="section visual">
+          <div class="section--title">
+            <img
+              class="section--title__icon"
+              alt="icon"
+              src="./assets/images/icon-visual.svg"
+            />
+            <p class="section--title__text">Visual</p>
+          </div>
+
+          <p class="section--points">65</p>
+        </section>
+      </div>
+
+      <button class="continue">Continue</button>
+    </main>
   </body>
 </html>
