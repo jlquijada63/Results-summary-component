@@ -1,0 +1,48 @@
+:root {
+  --Light-red: hsl(0, 100%, 67%);
+
+  --Orangey-yellow: hsl(39, 100%, 56%);
+
+  --Green-teal: hsl(166, 100%, 37%);
+
+  --Cobalt-blue: hsl(234, 85%, 45%);
+
+  /* gradients */
+
+  --Light-slate-blue(background): hsl(252, 100%, 67%);
+
+  --Light-royal-blue(background): hsl(241, 81%, 54%);
+
+  --Violet-blue: hsla(256, 72%, 46%, 1);
+
+  --Persian-blue: hsla(241, 72%, 46%, 0);
+
+  /* neutral */
+
+  --White: hsl(0, 0%, 100%);
+
+  --Pale-blue: hsl(221, 100%, 96%);
+
+  --Light-lavender: hsl(241, 100%, 89%);
+
+  --Dark-gray-blue: hsl(224, 30%, 27%);
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: Hanken Grotesk, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+.container {
+  max-width: 120rem;
+  width: 90%;
+  margin: 0 auto;
+}
